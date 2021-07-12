@@ -19,4 +19,10 @@
 
 * 店家資料以json格式保留  <br/>
 
+#### 使用範例
+<img width="794" alt="Screen Shot 2021-07-13 at 12 25 46 AM" src="https://user-images.githubusercontent.com/77527188/125323089-00d99080-e371-11eb-941a-fb988deff711.png">
 
+ <br/> <br/>
+ <img width="807" alt="Screen Shot 2021-07-13 at 12 25 32 AM" src="https://user-images.githubusercontent.com/77527188/125323195-18b11480-e371-11eb-84ef-366edee65419.png">
+
+ <br/> <br/><img width="794" alt="Screen Shot 2021-07-13 at 12 27 42 AM" src="https://user-images.githubusercontent.com/77527188/125323268-2d8da800-e371-11eb-82db-52016d42b740.png">
