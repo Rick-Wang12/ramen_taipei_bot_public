@@ -1,0 +1,5 @@
+flask
+beautifulsoup4
+configparser
+line-bot-sdk
+requests
