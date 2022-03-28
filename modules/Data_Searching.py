@@ -1,42 +1,6 @@
 # -*- coding: utf-8 -*-
 import json
 
-
-def binary_search(data, value, category):
-    target_list = []
-    q = -1
-    if len(data) % 2 == 0:
-        q = (len(data) % 2) -1
-    else:
-        q = (len(data) // 2)
-    
-    if q == -1: # Not found
-        return
-
-    if value in data[q][category]:
-        # 找到符合關鍵字的資料，存入list中
-        target_list.append(data[q])
-  
-        # 找尋資料右側是否還有符合的資料，若無，break
-        for i in range(q+1, len(data)+1):
-            if value in data[i][category]:
-                target_list.append(data[i])
-            else:
-                break
-
-        # 往左找尋資料左側是否還有符合的資料，若無，break
-        for i in range(q-1, -1, -1):
-            if value in data[i][category]:
-                target_list.append(data[i])
-            else:
-                break
-
-    elif value > data[q][category]:
-        binary_search(data[q+1:], target_list, value, category)
-    else:
-        binary_search(data[:q], target_list, value, category)
-
-
 def linear_search(data, value, category):
     target_list = []
     for i in range(len(data)):
